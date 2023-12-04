@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.calculator
+{
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 400px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+input[type="text"] {
+    width: 90%;
+    padding: 18px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    border: 2px solid #3498db; /* Change border color to a nice blue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease; /* Add a smooth transition effect for the border color */
+
+    /* Optional: Add a background color for better visibility */
+    background-color: #ecf0f1;
+}
+
+.row1 , .row2, .row3,.row4, .row5 
+{
+    margin: 20px;
+}
+button{
+    font-size: 3rem;
+    border-radius: 50%;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for button effects */
+    background: #f0f0f0; /* Light grey button background */
+    color: #333; /* Dark text color */
+    border: none;
+    display: inline-block;
+}
+button:hover {
+    background: #ccc; /* Darker background on hover */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+    color: #000; /* Darker text on hover */
+}
